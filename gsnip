@@ -98,7 +98,7 @@ if __name__ == '__main__':
     parser.add_argument('-l', '--list', dest='lists', action='store_true')
     parser.add_argument('-c', '--post', dest='post', nargs='+', help='Create gists')
     parser.add_argument('-e', '--patch', dest='patch', nargs='+', help='Edit gists')
-    parser.add_argument('-m', '--description', dest='desc', nargs='?', help='Description')
+    parser.add_argument('-m', '--description', dest='desc', nargs='?', default='', help='Description')
     parser.add_argument('-p', '--public', dest='public', action='store_true',
                         help='Create gists with public [Default False]')
     args = parser.parse_args()
