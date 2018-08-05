@@ -8,7 +8,7 @@ set nomodifiable " Only in version 6.0
 set readonly
 
 " My xterms have a navy-blue background, so I need this line too.
-set background=dark
+" set background=dark
 
 " Turn syntax on
 syntax enable
@@ -28,4 +28,5 @@ nmap ^V <C-F><C-G>
 
 " Horizental nowrap
 set nowrap
+set clipboard=unnamed
 colorscheme onedark
