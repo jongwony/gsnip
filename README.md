@@ -12,6 +12,10 @@ Command line tool for Gists
 cp -v .tokens.ini .vimrc.more ~
 ```
 
+```
+pip install gsnip
+```
+
 ## Usage
 
 ```
